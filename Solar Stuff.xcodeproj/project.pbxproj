@@ -12,9 +12,9 @@
 		83BF51CC289CD7EE0072154E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83BF51CB289CD7EE0072154E /* Assets.xcassets */; };
 		83BF51CF289CD7EE0072154E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83BF51CE289CD7EE0072154E /* Preview Assets.xcassets */; };
 		83BF51D6289CD89E0072154E /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF51D5289CD89E0072154E /* Bundle-Decodable.swift */; };
-		83BF51DA289CDA190072154E /* SolarSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF51D9289CDA190072154E /* SolarSystem.swift */; };
+		83BF51DA289CDA190072154E /* SolarSystemObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF51D9289CDA190072154E /* SolarSystemObject.swift */; };
 		83BF51DC289CDDD90072154E /* solar.json in Resources */ = {isa = PBXBuildFile; fileRef = 83BF51DB289CDDD90072154E /* solar.json */; };
-		83BF51DE289D240C0072154E /* PlanetDetailsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF51DD289D240C0072154E /* PlanetDetailsViews.swift */; };
+		83BF51DE289D240C0072154E /* ObjectDetailsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF51DD289D240C0072154E /* ObjectDetailsViews.swift */; };
 		83BF51EB289E23710072154E /* planet7.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 83BF51E0289E236F0072154E /* planet7.usdz */; };
 		83BF51EC289E23710072154E /* planet5.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 83BF51E1289E23700072154E /* planet5.usdz */; };
 		83BF51ED289E23710072154E /* planet2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 83BF51E2289E23700072154E /* planet2.usdz */; };
@@ -37,9 +37,9 @@
 		83BF51CB289CD7EE0072154E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83BF51CE289CD7EE0072154E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		83BF51D5289CD89E0072154E /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
-		83BF51D9289CDA190072154E /* SolarSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystem.swift; sourceTree = "<group>"; };
+		83BF51D9289CDA190072154E /* SolarSystemObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemObject.swift; sourceTree = "<group>"; };
 		83BF51DB289CDDD90072154E /* solar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = solar.json; sourceTree = "<group>"; };
-		83BF51DD289D240C0072154E /* PlanetDetailsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDetailsViews.swift; sourceTree = "<group>"; };
+		83BF51DD289D240C0072154E /* ObjectDetailsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDetailsViews.swift; sourceTree = "<group>"; };
 		83BF51E0289E236F0072154E /* planet7.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = planet7.usdz; sourceTree = "<group>"; };
 		83BF51E1289E23700072154E /* planet5.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = planet5.usdz; sourceTree = "<group>"; };
 		83BF51E2289E23700072154E /* planet2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = planet2.usdz; sourceTree = "<group>"; };
@@ -86,11 +86,11 @@
 			isa = PBXGroup;
 			children = (
 				83BF51C7289CD7EB0072154E /* Solar_StuffApp.swift */,
-				83BF51DD289D240C0072154E /* PlanetDetailsViews.swift */,
 				83BF51C9289CD7EB0072154E /* ContentView.swift */,
-				83BF51F6289E81FF0072154E /* K.swift */,
-				83BF51D9289CDA190072154E /* SolarSystem.swift */,
+				83BF51DD289D240C0072154E /* ObjectDetailsViews.swift */,
+				83BF51D9289CDA190072154E /* SolarSystemObject.swift */,
 				83BF51D5289CD89E0072154E /* Bundle-Decodable.swift */,
+				83BF51F6289E81FF0072154E /* K.swift */,
 				83BF51DB289CDDD90072154E /* solar.json */,
 				83BF51CB289CD7EE0072154E /* Assets.xcassets */,
 				83BF51DF289E234B0072154E /* 3D Planets */,
@@ -211,9 +211,9 @@
 			files = (
 				83BF51CA289CD7EB0072154E /* ContentView.swift in Sources */,
 				83BF51C8289CD7EB0072154E /* Solar_StuffApp.swift in Sources */,
-				83BF51DA289CDA190072154E /* SolarSystem.swift in Sources */,
+				83BF51DA289CDA190072154E /* SolarSystemObject.swift in Sources */,
 				83BF51F7289E81FF0072154E /* K.swift in Sources */,
-				83BF51DE289D240C0072154E /* PlanetDetailsViews.swift in Sources */,
+				83BF51DE289D240C0072154E /* ObjectDetailsViews.swift in Sources */,
 				83BF51D6289CD89E0072154E /* Bundle-Decodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
